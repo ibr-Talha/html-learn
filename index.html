@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@1,100;1,400&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <title>Clarusway Survey</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="baslik">Clarusway Surver Form</h1>
+    </div>
+    <div>
+        <h2>Thank you for taking the time to help us improve th platform</h2>
+    </div>
+    <br>
+
+    <form action="#" method="get">
+        <div>
+            <label for="name">Name</label> <br><br>
+            <input type="text" id="name" placeholder="Enter your name"><br>
+            <label for="Lname">Surname</label> <br><br>
+            <input type="text" id="Lname" placeholder="Enter your Surname"><br>
+            <label for="mail">Email</label> <br><br>
+            <input type="text" id="mail" placeholder="user@clarusway.com"><br>
+        </div>
+        <div class="label-1">
+            <h3><label for="liste">Which option best describes your current role?</label></h3>
+        </div>
+        <div>
+            <select name="drop_list" id="liste">
+                <option value="" selected disabled>Select current role</option>
+                <option value="zeki">Zeki</option>
+                <option value="cevik">Çevik</option>
+                <option value="hirsli">Hırslı</option>
+            </select>
+        </div>
+        <div class="label-2">
+            <h3><label for="radioList">Would you recommend Clarusway to friend?</label></h3>
+        </div>
+        <div>
+            <ul class="small-menu">
+                <li><input type="radio" name="radioList" checked>Definitely, Yes</li>
+                <li><input type="radio" name="radioList">Maybe</li>
+                <li><input type="radio" name="radioList">Not sure</li>
+                <li><input type="radio" name="radioList">Definitely, No</li>
+            </ul>
+        </div>
+        <div class="label-2">
+            <h3><label for="dropdownList">What is your favorite feature of Clarusway?</h3></label>
+        </div>
+        <div class="dropliste">
+            <select name="drop_list" id="dropdownList">
+                <option value="" selected disabled>Select an option</option>
+                <option value="zeki">Düzenli</option>
+                <option value="cevik">Yardım</option>
+                <option value="hirsli">Prensipli Çalışma</option>
+            </select>
+        </div>
+        <div>
+            <label for="check">
+                <h3>What would you like to see improved? (Check all that apply)</h3>
+            </label>
+        </div>
+        <div>
+            <ul class="small-menu">
+                <li><input type="checkbox" name="front-end" id="check"> Front-end Projects</li>
+                <li><input type="checkbox" name="back-end" id="check"> Back-end Projects</li>
+                <li><input type="checkbox" name="data-science" id="check"> Data Science</li>
+                <li><input type="checkbox" name="additional" id="check"> Additional Courses</li>
+            </ul>
+        </div>
+        <div>
+            <label for="yorum">
+                <h3>Any comments or suggestions?</h3>
+            </label>
+            <textarea name="" id="yorum" cols="20" rows="3"
+                placeholder="Enter your comment here...Thanks for your"></textarea>
+            <input type="button" value="Submit">
+        </div>
+
+    </form>
+
+
+
+</body>
+
+</html>

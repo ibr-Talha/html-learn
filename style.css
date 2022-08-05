@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.baslik {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.list {
+    padding: 5px;
+}
+
+.label-1 {
+    margin-bottom: 10px;
+}
+
+.label-2 {
+    margin-top: 10px;
+}
+
+.dropliste {
+    margin-top: 10px;
+}
+
+.small-menu {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.small-menu li {
+    padding-top: 10px;
+}
+
+textarea {
+    overflow-y: scroll;
+}
